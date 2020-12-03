@@ -35,7 +35,7 @@ function setup() {
 	groundSprite.shapeColor=color(255)
 
 
-	packageBody = Bodies.circle(width/2 , 200 , 10 , {restitution:0.75, isStatic:true});
+	packageBody = Bodies.circle(width/2 , 200 , 21 , {restitution:0.75, isStatic:true});
 	World.add(world, packageBody);
 
 	//Create a Ground
